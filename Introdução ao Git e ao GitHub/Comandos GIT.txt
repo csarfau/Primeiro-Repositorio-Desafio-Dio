@@ -1,0 +1,28 @@
+Link de download do Git: https://git-scm.com/downloads
+
+- git init -> Cria um novo repositório
+- git clone (link) -> Clona um repositório remoto já existente
+- git status -> Verifica estado dos arquivos/diretórios
+- git log -> Exibe o histórico
+- git add (Nome do arquivo) -> Adiciona arquivo/diretório (staged area) 
+-- (.) -> Adiciona todos os arquivos/diretórios (staged area)
+- git commit (Nome do arquivo) -> Comita um arquivo que está no "Staged Area"
+-- git commit (Nome do arquivo) (-m) ("Comentário") -> Comita informando comentário
+- git push (-u) (origin) (master) -> O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
+-- git push -> Os demais pushes não precisam dessa informação
+- git clean (-f) ou (--force)-> Remove arquivos não versionados, precisa do comando para forçar sua execução
+-- (-d) -> Além dos arquivos remove também os diretórios não versionados
+-- (-n) -> Exibe quais arquivos serão removidos se utilizado o git clean 
+
+COMANDOS ÚTEIS DO GIT BASH
+Ctrl + l -> Limpa a tela
+pwd -> Exibe o diretório de trabalho atual
+ls -> Lista o conteúdo do diretório atual
+ls (-a) -> Lista o conteúdo exibindo as pastas ocultas
+cd (Nome do Diretório)-> Usado para trabalhar dentro do diretório digitado
+cd (..) -> Retorna ao diretório anterior
+mkdir (Nome-do-Diretório)-> Cria um diretório
+mv (./local) -> Move um diretório para o local especificado
+
+
+
